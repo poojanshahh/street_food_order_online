@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <script type="text/javascript" src="js/jquery-3.6.0.js"></script>
+        <script type="text/javascript"  src="js/dist/jquery.validate.js"></script>
+            <script>
+                $(document).ready(function(){
+                    $("#sfoo").validate();
+                });
+            </script>
+    </head>
+    <body>
+        <form method="post" id="sfoo">
+            Name: <input type="text" class="required"><br>
+            Email: <input type="text"><br>
+            <input type="submit">
+        </form>
+    </body>
+</html>
